@@ -181,3 +181,13 @@
   font-weight: bold;
   color: var(--outrageous-orange-200) !important;
 }
+
+.link-hover-orange:hover {
+  font-weight: bold;
+  color: var(--outrageous-orange-600) !important;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
