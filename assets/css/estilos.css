@@ -23,13 +23,10 @@
 }
 
 .raleway {
-  font-family: "Raleway", sans-serif !important;
-}
-.roboto {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 .montserrat {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 .bg-orange {
@@ -157,12 +154,12 @@
 
 .link-hover:hover {
   font-weight: bold;
-  color: var(--outrageous-orange-200) !important;
+  color: var(--outrageous-orange-200);
 }
 
 .link-hover-orange:hover {
   font-weight: bold;
-  color: var(--outrageous-orange-600) !important;
+  color: var(--outrageous-orange-600);
 }
 
 textarea {
