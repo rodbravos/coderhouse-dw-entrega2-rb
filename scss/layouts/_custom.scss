@@ -1,0 +1,49 @@
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: map-get($colors, orange-500);
+  font-weight: bold;
+}
+
+.section-title-hr {
+  width: 175px;
+  height: 1px;
+  @include border(2px, solid, map-get($colors, orange-500));
+  background-color: map-get($colors, orange-500);
+  display: block;
+  opacity: 1;
+}
+
+.white-hr {
+  background-color: map-get($colors, blanco);
+  @include border(2px, solid, map-get($colors, blanco));
+  border-radius: 20px;
+  display: block;
+}
+
+.page-link {
+  color: map-get($colors, orange-500);
+  font-family: $font-raleway;
+  &:hover {
+    color: map-get($colors, orange-600);
+    background-color: map-get($colors, orange-100);
+  }
+}
+
+.active > .page-link,
+.page-link.active {
+  color: var(--bs-pagination-active-color);
+  background-color: map-get($colors, orange-500);
+  border-color: map-get($colors, orange-600);
+}
+
+.link-hover {
+  &:hover {
+    font-weight: bold;
+    color: map-get($colors, orange-200);
+  }
+
+  &-orange:hover {
+    font-weight: bold;
+    color: map-get($colors, orange-600);
+  }
+}

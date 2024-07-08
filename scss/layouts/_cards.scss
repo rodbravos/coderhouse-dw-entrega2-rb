@@ -1,0 +1,12 @@
+.card-comments .card-comment {
+  @include border(1px, solid, #e9ecef);
+  padding: 8px 0;
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}
