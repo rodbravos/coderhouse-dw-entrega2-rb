@@ -1,0 +1,14 @@
+// RESET
+@import "./reset/variables";
+@import "./reset/mixin";
+@import "./reset/reset";
+
+// LAYOUTS
+@import "./layouts/custom";
+@import "./layouts/buttons";
+@import "./layouts/images";
+@import "./layouts/cards";
+
+// ANIMATIONS
+@import "./animations/jello-horizontal.scss";
+@import "./animations/tracking-in.scss";
