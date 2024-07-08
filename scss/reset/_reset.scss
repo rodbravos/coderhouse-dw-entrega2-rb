@@ -1,0 +1,47 @@
+* {
+  font-family: $font-family-full;
+  @include espacios(0, 0);
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+.titulo {
+  font-size: 3.75rem;
+  @include textShadow(
+    1px 2px 2px map-get($colors, azul-500),
+    -1px -1px 2px map-get($colors, rosa)
+  );
+}
+
+.font-orange {
+  color: map-get($colors, orange-500);
+}
+
+.text-bg-orange {
+  color: map-get($colors, blanco);
+  background-color: map-get($colors, orange-500);
+}
+
+// Recorrido de map encontrado en _variables.scss
+@each $color-key, $color-value in $colors {
+  @if $color-key != rosa and $color-key != azul-500 and $color-key != blanco {
+    .bg-#{$color-key} {
+      background-color: $color-value;
+    }
+  }
+}
