@@ -1,0 +1,23 @@
+.btn-custom-orange {
+  background-color: map-get($colors, orange-500);
+  color: #fff;
+  border: none;
+  &:hover {
+    background-color: map-get($colors, orange-600);
+    color: #fff;
+  }
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: map-get($colors, orange-700);
+  color: #fff;
+}
+
+.btn-custom-orange:active,
+.btn-custom-orange:focus {
+  background-color: map-get($colors, orange-700);
+}

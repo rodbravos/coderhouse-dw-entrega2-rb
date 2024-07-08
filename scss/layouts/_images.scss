@@ -1,0 +1,17 @@
+.img {
+  &-logo {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  &-shadow {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.8));
+  }
+
+  &-profile {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    @include border(2px, solid, map-get($colors, orange-500));
+  }
+}

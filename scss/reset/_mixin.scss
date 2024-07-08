@@ -1,0 +1,12 @@
+@mixin border($width, $style, $color) {
+  border: $width $style $color;
+}
+
+@mixin textShadow($shadows...) {
+  text-shadow: $shadows;
+}
+
+@mixin espacios($padding-value, $margin-value) {
+  padding: $padding-value;
+  margin: $margin-value;
+}
