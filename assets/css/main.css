@@ -163,6 +163,9 @@ textarea {
   margin-right: 15px;
   border: 2px solid #ee6043;
 }
+.img-header {
+  width: 400px;
+}
 
 .card-comments .card-comment {
   border: 1px solid #e9ecef;
@@ -175,6 +178,7 @@ textarea {
   border-bottom: 0;
 }
 
+.jello-horizontal,
 .jello-horizontal:hover {
   -webkit-animation: jello-horizontal 0.9s both;
   animation: jello-horizontal 0.9s both;
@@ -241,8 +245,7 @@ textarea {
   }
 }
 .tracking-in-expand {
-  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1)
-    both;
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
