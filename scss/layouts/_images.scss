@@ -14,4 +14,8 @@
     margin-right: 15px;
     @include border(2px, solid, map-get($colors, orange-500));
   }
+
+  &-header {
+    width: 400px;
+  }
 }
