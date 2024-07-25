@@ -20,3 +20,4 @@ Para poder ver el proyecto se encuentra a través de 3 vías.
 
 - [Repositorio de Github](https://github.com/rodbravos/coderhouse-dw-entrega2-rb)
 - [Github Pages](https://rodbravos.github.io/coderhouse-dw-entrega2-rb/)
+- [Vercel](https://coderhouse-dw-rodsolutions.vercel.app/)
